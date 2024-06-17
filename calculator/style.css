@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #000000, rgb(25, 3, 110));
+    display: flex;
+
+}
+
+.calculator {
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: transparent;
+    box-shadow: 0px 6px 15px rgba(16, 84, 255, 0.333);
+}
+
+input {
+    width: 320px;
+    border: none;
+    padding: 25px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 7px 15px rgba(84, 84, 84, 0.066);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: rgba(100, 100, 100, 0.209);
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: -5px -6px 10px rgba(44, 49, 200, 0.624);
+}
+
+.equalbtn{
+    color: white;
+    background-color: rgb(137, 119, 235);
+}
+
+.cbtn{
+    color: red;
+}
+
+.operator{
+    color: rgb(129, 243, 104);
+}
